@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
 }
@@ -16,7 +16,8 @@
     font-size: 100px;
 }
 
-#resetBtn {
+#resetBtn,
+#startBtn {
     font-family: "Permanent Marker", cursive;
     font-size: 22px;
     width: 100px;

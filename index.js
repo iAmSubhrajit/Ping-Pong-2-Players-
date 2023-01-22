@@ -4,11 +4,11 @@ const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
-const boardBackground = "forestgreen";
-const paddle1Color = "lightblue";
+const boardBackground = "cyan";
+const paddle1Color = "blue";
 const paddle2Color = "red";
 const paddleBorder = "black";
-const ballColor = "yellow";
+const ballColor = "white";
 const ballBorderColor = "black";
 const ballRadius = 12.5;
 const paddleSpeed = 50;
@@ -134,10 +134,10 @@ function checkCollision() {
 };
 function changeDirection(event) {
     const keyPressed = event.keyCode;
-    const paddle1Up = 87;
-    const paddle1Down = 83;
-    const paddle2Up = 38;
-    const paddle2Down = 40;
+    const paddle1Up = 87; //w
+    const paddle1Down = 83; //s
+    const paddle2Up = 38; // arrow up
+    const paddle2Down = 40; //arrow down
 
     switch (keyPressed) {
         case (paddle1Up):
